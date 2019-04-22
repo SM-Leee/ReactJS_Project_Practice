@@ -1,0 +1,15 @@
+.Menu{
+    background-image:url('menu_icon.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    margin-right:4%; 
+    float: left;
+    cursor:pointer;
+}
+.Menu:hover{
+    background-image:url('menu_icon_hover.png');
+}

@@ -1,0 +1,14 @@
+.Title {
+    display: table;
+    height:100%;
+    width:auto;
+    color: white;
+    font-size: 150%; 
+    align-items: center;
+    user-select:none;
+}
+.Title span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+}

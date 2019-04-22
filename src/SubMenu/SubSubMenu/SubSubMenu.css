@@ -1,0 +1,29 @@
+.SubSubMenu {
+    display: inline-block;
+    height:100%;
+    background: #00AAF0;
+    color:white;
+    font-weight:bold;
+    user-select:none;
+}
+
+.SubSubMenu .Sub {
+    display:table;
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+
+.SubSubMenu span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.SubSubMenu:hover {
+    background: white;
+    color: #00AAF0;
+}
+.SubSubMenu.done {
+    background: white;
+    color: #00AAF0;
+}
