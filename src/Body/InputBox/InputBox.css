@@ -2,9 +2,8 @@
     margin-top:3%;
     display: inline-block;
     /* width:50%; */
-    height: 5%;
+    /* height: 5%; */
 }
-
 .InputBoxTitle{
     width:100%;
     height: 100%;
@@ -19,7 +18,7 @@
     vertical-align: middle;
 }
 .InputBoxInput{
-    width:60%;
+    width:59%;
     height: 90%;
     border-radius: 7px;
     padding-left: 5%;
@@ -27,16 +26,53 @@
     border: 2px solid #DBDBDB;
     font-size: 105%;
 }
+.InputBoxInput.kwd{
+    width:49%;
+    padding-right:10%;
+    background-image:url('kwd.png');
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: center;
+}
 .InputBoxTitleMiddle{
-    display:inline-block;
     width: 28%;
     height:100%;
     float: left;
 }
-
+.InputBoxTitleMiddle.widthProve.heightProve {
+    height: 10%;
+    width: 20%;
+    float:none;
+    padding-bottom:3%;
+}
+.InputBoxInput.widthProve.heightProve {
+    width:89%;
+    height : 75%;
+    margin-left:2%;
+    margin-right: 3%;
+    position: relative;
+}
 .InputBoxInput.widthProve{
-    width: 77.5%;
+    width: 77%;
+}
+.InputBoxInput.widthProve.kwd{
+    width: 67%;
+    background-position-x: 98%;
 }
 .InputBoxTitleMiddle.widthProve{
     width:14%;
+}
+
+.kwdImage{
+    background-image: url('kwd.png');
+    background-repeat: no-repeat;
+    /* background-size:10%; */
+    height:100%;
+    width:10%;
+    float: right;
+    /* margin-left: -15%; */
+    margin-top:-11%;
+    position: relative;
+    right:5%;
+    
 }
