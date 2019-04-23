@@ -1,0 +1,89 @@
+.dsDatePicker{
+    margin-top:3%;
+    display: inline-block;
+    /* width:50%; */
+    height: 5%;
+    float:left;
+}
+.dsDatePickerTitle{
+    width:100%;
+    height: 100%;
+    font-size: 110%;
+    text-align: center;
+    display:table;
+}
+.dsDatePickerTitle span {
+    height:100%;
+    display:table-cell;
+    vertical-align: middle;
+}
+.dsDatePickerInputFull{
+    width:63%;
+    height: 100%;
+    border-radius: 7px;
+    margin-right:3%;
+    float: left;
+    border: 2px solid #DBDBDB;
+    background-color:white;
+    padding-left:1%;
+}
+.dsDatePickerTitleMiddle{
+    width: 28%;
+    height:100%;
+    float: left;
+}
+.dsDatePickerInputFull.widthProve{
+    width: 81%;
+}
+.dsDatePickerTitleMiddle.widthProve{
+    width:14%;
+}
+
+/* datepicker */
+.react-datepicker {
+    font-size: 1.3rem !important;
+   }
+   
+   .react-datepicker__current-month {
+    font-size: 1.5rem !important;
+   }
+   
+   .react-datepicker__header {
+    padding-top: 7px !important;
+   }
+   
+   .react-datepicker__navigation {
+    top: 11px !important;
+   }
+   
+   .react-datepicker__day-name, .react-datepicker__day {
+    margin: 1.2rem !important;
+   }
+   /* calender location */
+   .react-datepicker-popper {
+    transform: translate3d(20px, 152px, 0px) !important; 
+   }
+   /* datepicker */
+   .react-datepicker__input-container > input[type=text] {
+      font-size: 105%;
+      width: 90%;
+      height:100%;
+      border:none;
+      padding-left:5%;
+   }
+   .react-datepicker-wrapper {
+    height:100%;
+    width:100%;
+    
+    }
+    .react-datepicker__input-container {
+        height:90%;
+        width:100%;
+        /* background-image: url('calendar-mini.png');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
+        background-size:contain;
+        background-origin: content-box; */
+        
+    }
