@@ -6,9 +6,16 @@
     font-size: 150%; 
     align-items: center;
     user-select:none;
+    flex:10;
 }
 .Title span {
     display: table-cell;
     vertical-align: middle;
     font-weight: bold;
+}
+@media (min-width:768px){
+    .Title {
+        margin-left:3%;
+        font-size: 200%;
+    }
 }

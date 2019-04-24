@@ -1,15 +1,34 @@
 .Menu{
-    background-image:url('menu_icon.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
     width: 10%;
     height: 100%;
     /* display: inline-block; */
     margin-right:4%; 
-    float: left;
-    cursor:pointer;
+    flex:1;
 }
-.Menu:hover{
-    background-image:url('menu_icon_hover.png');
+.icon-table{
+    width:100%;
+    height:100%;
+    display:table;
+}
+.icon {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    cursor:pointer;
+    font-size:150%;
+    color:white;
+}
+.icon:active {
+    color:#C0C0C0;
+}
+@media (min-width:768px){
+    .Menu {
+        width:0;
+        height: 0;
+        margin:0;
+        flex:0;
+    }
+    .icon{
+        display:none;
+    }
 }

@@ -1,0 +1,16 @@
+.ToggleSubItem-table {
+    width:91%;
+    height:8%;
+    margin:4%;
+    border-bottom: 1px dotted #00AAF0;
+    display:table;
+}
+
+.ToggleSubItem{
+    height: 90%;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left:4%;
+    font-size:110%;
+}

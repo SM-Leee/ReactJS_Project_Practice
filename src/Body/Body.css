@@ -1,4 +1,5 @@
 .Body{
     height: 86%;
-    background: #FFFFE0;
+    background: rgb(255, 255, 255);
+    overflow: auto;
 }

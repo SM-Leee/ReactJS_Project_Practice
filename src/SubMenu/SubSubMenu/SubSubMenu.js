@@ -7,7 +7,7 @@ const cn = classNames.bind(styles);
 
 class SubSubMenu extends Component {    
     render() {
-        const { title, length, onClick, done } = this.props;
+        const { title, length, onClick, done, id } = this.props;
         
         const width = (100 / length) + '%';
 
@@ -16,7 +16,7 @@ class SubSubMenu extends Component {
         }
         return (
             
-             <div className={cn('SubSubMenu', { done })} style={style} onClick={onClick}>
+             <div className={cn('SubSubMenu', { done })} style={style} onClick={()=>onClick(id)}>
                  <div className={cn('Sub')} readOnly>
                      <span>{title}</span>
                  </div>

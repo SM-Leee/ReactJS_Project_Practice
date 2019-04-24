@@ -46,6 +46,7 @@ class DsDatePicker extends Component {
                         onChange={this.handleChange}
                         dateFormat="yyyy-MM-dd"
                     />
+                    {/* <i className="far fa-calendar-alt calendar"></i> */}
                     {/* <div className={cn('dsDatePickerImages')}></div> */}
                 </div>
             </div>

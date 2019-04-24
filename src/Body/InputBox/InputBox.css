@@ -1,6 +1,6 @@
 .InputBox{
     margin-top:3%;
-    display: inline-block;
+    /* display: inline-block; */
     /* width:50%; */
     /* height: 5%; */
     float:left;
@@ -50,7 +50,6 @@
     height : 80%;
     margin-left:2%;
     margin-right: 3%;
-    position: relative;
 }
 .InputBoxInput.widthProve{
     width: 77%;
@@ -62,3 +61,72 @@
 .InputBoxTitleMiddle.widthProve{
     width:14%;
 }
+
+@media(min-width:768px){
+    .InputBox{
+        margin-top:1.5%;
+    }
+    .InputBoxTitle{
+        font-size:120%;
+    }
+    .InputBoxTitleMiddle{
+        width: 20%;
+        height:100%;
+        float: left;
+    }
+    .InputBoxTitleMiddle.widthProve {
+        width:10%;
+    }
+    .InputBoxInput{
+        width:67%;
+    }
+    .InputBoxInput.kwd{
+        width:59%;
+        padding-right:8%;
+        
+    }
+    .InputBoxTitleMiddle.widthProve.heightProve {
+        width:14%;
+        padding-bottom:1%;
+    }
+    .InputBoxInput.widthProve{
+        width:81%;
+    }
+}
+@media(max-width:375px){
+    .InputBox{
+        margin-top:3%;
+    }
+    .InputBoxTitle{
+        font-size:100%;
+    }
+    .InputBoxTitleMiddle{
+        width: 28%;
+        height:100%;
+        float: left;
+    }
+    .InputBoxTitleMiddle.widthProve {
+        width:14%;
+    }
+    .InputBoxInput{
+        width:59%;
+    }
+    .InputBoxInput.kwd{
+        width:50%;
+        padding-right:8%;
+        
+    }
+    .InputBoxTitleMiddle.widthProve.heightProve {
+        width:20%;
+        padding-bottom:1%;
+    }
+    .InputBoxInput.widthProve{
+        width:76.5%;
+    }
+}
+@media(max-width:320px){
+    .InputBoxTitle{
+        font-size:85%;
+    }
+}
+

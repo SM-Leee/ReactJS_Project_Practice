@@ -1,0 +1,15 @@
+.ToggleItem-table{
+    width:91%;
+    height:12.7%;
+    margin:4%;
+    border-bottom: 1px solid #00AAF0;
+    display:table;
+}
+.ToggleItem{
+    
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size:150%;
+    font-weight: bolder;
+}

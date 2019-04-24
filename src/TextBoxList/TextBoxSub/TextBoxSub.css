@@ -1,0 +1,112 @@
+.TextBoxSub {
+    background-color: #00AAF0; 
+    width:100%;
+    /* display:inline-block; */
+    border-radius: 6px; 
+    display:flex;
+    flex-direction: row;
+    font-size: 210%;
+    color:white;
+    border:0.5px solid white;
+}
+
+.TextBoxTitle {
+    width:100%;
+    display: table;
+    flex:2;
+}
+
+.TextBoxKrw {
+    width:100%;
+    display: table;
+    flex:5;
+}
+.TextBoxTitle-Sub {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+.TextBoxTitle-clone{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.TextBoxKrw-Sub {
+    display:table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+    width:80%;
+    text-align-last: right;
+    
+}
+
+.icon-krw {
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 70%;
+    
+}
+
+/* full인 화면이 아닌경우 */
+.TextBoxSub.row {
+    font-size: 100%;
+    flex-direction: column;
+    height:100%;
+}
+.TextBoxTitle.row {
+    flex:1;
+    width:auto;
+    height:50%;
+}
+.TextBoxKrw.row {
+    width:auto;
+    flex:1;
+    height:50%;
+    
+}
+
+.TextBoxTitle-Sub.row {
+    text-align: center;
+    width:100%;
+}
+.TextBoxTitle-clone {
+    visibility: hidden;
+}
+.TextBoxKrw-Sub.row {
+    vertical-align: top;
+    padding-right: 2%;
+}
+.icon-krw.row {
+    vertical-align: top;
+    padding-top:3%;
+    font-size: 90%;
+}
+
+@media(min-width:768px){
+    .TextBoxSub {
+        font-size:240%;
+        letter-spacing: 3px;
+    }
+    .TextBoxTitle {
+        flex:3;
+    }
+    .TextBoxKrw {
+        flex:5;
+    }
+    .TextBoxKrw-Sub {
+        width:70%;
+    }
+}
+
+@media(max-width:375px){
+    .TextBoxSub {
+        font-size:190%;
+    }
+}
+@media(max-width:320px){
+    .TextBoxSub {
+        font-size:170%;
+    }
+}

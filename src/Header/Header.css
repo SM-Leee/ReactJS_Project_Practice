@@ -1,4 +1,9 @@
 .header {
     background: #00AAF0; 
     height:8%;
+    display:flex;
+    flex-direction: row;
+}
+@media (min-width:768px) {
+    
 }
