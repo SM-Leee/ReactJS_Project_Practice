@@ -19,8 +19,16 @@ class TextBoxSub extends Component {
         }
         // eslint-disable-next-line
         const row = ((this.props.textbox.rowlength == 3) ? false : true);
+        // eslint-disable-next-line
+        const slice = ((this.props.textbox.rowlength == 3) ? true : false);
+        
+        var visibility = "hide";
+        if(this.props.visible){
+            visibility = "show";
+        }
+
         return (
-            <div className={cn("TextBoxSub", {row})} style={style}>
+            <div className={cn("TextBoxSub", {row}, {slice}, visibility)} style={style} onTouchMove={this.props.onTouchMove}>
                 <div className={cn("TextBoxTitle", {row})}>
                     <span className={cn("TextBoxTitle-Sub", {row})}>{this.props.textbox.title}</span>
                     <span className={cn("TextBoxTitle-clone", {row})}>:</span>
